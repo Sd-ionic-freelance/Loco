@@ -1,0 +1,15 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+        {{playlist.title}}
+      </ion-item>
+      <button ng-click="getCamera()">Camera</button>
+      <img id="myImage" src="">
+      
+      <button ng-click="scheduleDelayedNotification()">Local Notification</button>
+      
+      <button ng-click="appRate()">Rate My App</button>
+    </ion-list>
+  </ion-content>
+</ion-view>

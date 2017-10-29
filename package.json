@@ -1,0 +1,60 @@
+{
+  "name": "loco",
+  "version": "0.0.1",
+  "description": "An Ionic project",
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "cordova-android": "6.3.0",
+    "cordova-plugin-app-event": "^1.2.1",
+    "cordova-plugin-app-version": "git+https://github.com/whiteoctober/cordova-plugin-app-version.git",
+    "cordova-plugin-apprate": "git+https://github.com/pushandplay/cordova-plugin-apprate.git",
+    "cordova-plugin-badge": "git+https://github.com/katzer/cordova-plugin-badge.git",
+    "cordova-plugin-camera": "^2.4.1",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-device": "^1.1.4",
+    "cordova-plugin-dialogs": "^1.3.3",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-file-transfer": "^1.6.3",
+    "cordova-plugin-geolocation": "^2.4.3",
+    "cordova-plugin-globalization": "^1.0.7",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-local-notifications": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
+    "cordova-plugin-network-information": "^1.3.3",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "^2.2.1",
+    "cordova-plugin-whitelist": "^1.3.1",
+    "cordova-plugin-x-socialsharing": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+    "cordova-plugin-x-toast": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
+    "de.appplant.cordova.plugin.local-notification": "https://github.com/katzer/cordova-plugin-local-notifications.git",
+    "es6-promise-plugin": "^4.1.0",
+    "ionic-plugin-keyboard": "^2.2.1"
+  },
+  "cordova": {
+    "plugins": {
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-apprate": {},
+      "cordova-plugin-app-version": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-file-transfer": {},
+      "de.appplant.cordova.plugin.local-notification": {},
+      "cordova-plugin-x-socialsharing": {},
+      "cordova-plugin-badge": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-x-toast": {},
+      "cordova-plugin-geolocation": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
